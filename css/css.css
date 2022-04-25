@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,500&family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+button {
+    margin-top: 50vh;
+}
+
+
+.button_position {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.btn {
+    border:1px solid #6c757d;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.second_border {
+    color: #6c757d;
+    border-color: #6c757d;
+}
+.second_border:focus {
+    box-shadow: 0 0 0 0.2rem rgb(108 117 125 / 50%);
+}
+
+.btn_text {
+    font-family: 'sans-serif';
+    font-size: 18px;
+    color: #6c757d;
+}
+
+
+.button_on_click {
+
+}
+
+.button_on_click:hover {
+    color: #ffffff;
+    background-color: #6c757d;
+    transition: 6ms;
+
+}
